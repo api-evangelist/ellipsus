@@ -1,7 +1,17 @@
 aid: ellipsus
 name: Ellipsus
-description: Ellipsus is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ellipsus is a collaborative writing platform built for creative and fiction
+  writers, combining a modern text editor with granular, Git-style version
+  control so authors can draft, branch, share, and merge work together across
+  devices. Founded in 2022 and operated by a small distributed team across
+  Berlin (Germany), Madrid (Spain), and Szczecin (Poland), the product threads
+  collaboration through every stage of writing — organizing drafts, discussing
+  feedback, tracking changes, and preserving public version history — with a
+  writers-first, artist-ownership, anti-AI-generated-content stance. Ellipsus
+  offers a free tier and a paid Plus license, and is backed by Speedinvest.
+  It is added to the API Evangelist network as a company profile; no public
+  developer API surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/ellipsus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,60 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://ellipsus.com/share-image.jpg
 tags:
 - Company
+- Collaborative Writing
+- Writing Tools
+- Content Creation
+- Version Control
+- Productivity
+- SaaS
 apis: []
+common:
+- type: Website
+  url: https://ellipsus.com
+- type: SignUp
+  url: https://account.ellipsus.com/sign-up
+- type: Login
+  url: https://write.ellipsus.com/
+- type: Pricing
+  url: https://ellipsus.com/pricing
+- type: Blog
+  url: https://ellipsus.com/blog
+- type: HelpCenter
+  url: https://help.ellipsus.com
+- type: Support
+  url: mailto:support@ellipsus.com
+- type: StatusPage
+  url: https://status.ellipsus.com
+- type: TermsOfService
+  url: https://ellipsus.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://ellipsus.com/privacy-policy
+- type: DomainSecurity
+  url: security/ellipsus-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
